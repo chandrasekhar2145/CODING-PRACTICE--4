@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffff;
+  font-family: 'Roboto';
+  font-style: italic;
+
+  font-size: 35px;
+}
+.speedometer-heading {
+  color: #ffff;
+  font-family: 'Roboto';
+}
+.image {
+  height: 50%;
+  width: 50%;
+}
+
+.speedometer-para {
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+
+.speed-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.accelerate-btn {
+  background-color: #0b69ff;
+  padding: 8px;
+  border-radius: 7px;
+  border-color: #0b69ff;
+  font-family: 'Roboto';
+  border-style: solid 1px;
+  color: #ffff;
+  font-size: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  cursor: pointer;
+  outline: none;
+}
+
+.applybreak-btn {
+  background-color: #07080cff;
+  padding: 8px;
+  border-radius: 7px;
+  border-color: #94a3b8;
+  font-family: 'Roboto';
+  border-style: solid 1px;
+  color: #cbd5e1;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 25px;
+  margin-right: 25px;
+}
