@@ -43,11 +43,11 @@ class Speedometer extends Component {
             <button className="accelerate-btn" onClick={this.onClickAccelerate}>
               Accelerate
             </button>
-            <div>
+            
               <button className="applybreak-btn" onClick={this.onApplyBrake}>
                 Apply Brake
               </button>
-            </div>
+         
           </div>
         </div>
       </div>
